@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.icon-button {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  border-radius: 50%;
+  background: rgba(219, 219, 219, 0.67);
+  padding: 4px;
+  color: gray;
+  cursor: pointer;
+  border: none; /* Remove default button border */
+}
+
+.icon-button-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-svg {
+  font-size: 14px;
+  padding: 0;
+  fill: gray; /* Ensure the color is gray */
+}
+
+.icon-button:hover {
+  background: rgba(219, 219, 219, 0.87); /* Change background on hover for better UX */
+}
