@@ -7,8 +7,6 @@ import MainCardCreation from './MainCardCreation';
 const Sidebar = () => {
 
     const [isOpen, setIsOpen] = useState(false);
-    const [adminOpen, setAdminOpen] = useState(false);
-    const [driversOpen, setDriversOpen] = useState(false);
 
     return (
         <div className="flex h-screen">
